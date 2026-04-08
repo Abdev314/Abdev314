@@ -96,7 +96,11 @@ Whether it's backend systems, automation, infrastructure, or new technologies, I
   <img width="30"/>
   <img src="https://cdn.simpleicons.org/n8n/ff6d5a" height="60" alt="n8n logo"/>
   <img width="30"/>
-  <img src="https://cdn.simpleicons.org/ollama/000000" height="60" alt="ollama logo"/>
+  <picture>
+    <source srcset="https://cdn.simpleicons.org/ollama/ffffff" media="(prefers-color-scheme: dark)">
+    <source srcset="https://cdn.simpleicons.org/ollama/000000" media="(prefers-color-scheme: light)">
+    <img src="https://cdn.simpleicons.org/ollama/000000" height="60" alt="ollama logo"/>
+  </picture>
   <img width="30"/>
 
 
