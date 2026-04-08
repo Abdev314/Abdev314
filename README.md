@@ -1,28 +1,45 @@
 <div align="center">
-  <img height="170" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
+  <img height="170" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"/>
 </div>
 
 ###
 
 <div align="center">
-  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
-  <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="twitter logo"  />
-  <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="discord logo"  />
-  <img src="https://img.shields.io/static/v1?message=WeChat&logo=wechat&label=&color=7BB32A&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="wechat logo"  />
+  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&style=for-the-badge" height="25" alt="linkedin logo"/>
+  <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&style=for-the-badge" height="25" alt="twitter logo"/>
+  <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&style=for-the-badge" height="25" alt="discord logo"/>
+  <img src="https://img.shields.io/static/v1?message=WeChat&logo=wechat&label=&color=7BB32A&logoColor=white&style=for-the-badge" height="25" alt="wechat logo"/>
 </div>
-
 
 <h1 align="center">Hey there 👋</h1>
 
 ###
 
-<h3 align="left">👩‍💻  About Me</h3>
+<h3 align="left">👨‍💻 About Me</h3>
 
 ###
 
-<p align="left">I'm Abdellah 俊维 , a Software Engineer who loves solving problems, exploring new technologies, and building creative solutions that make a difference.<br><br>💡 What I Do<br>- Develop efficient and scalable applications across different platforms.<br>- Continuously learn and experiment with modern frameworks and tools.<br>- Transform innovative ideas into real-world projects.<br><br>🌱 What Drives Me<br>I’m passionate about continuous growth, clean code, and meaningful collaboration. For me, every project is an opportunity to improve, share knowledge, and create something impactful.<br><br>🚀 Let’s Connect<br>Feel free to explore my repositories, share feedback, or reach out for collaboration — I’m always open to new ideas and challenges!</p>
+<p align="left">
+I'm Abdellah 俊维 — a software developer focused on building real systems, solving complex problems, and turning ideas into working solutions quickly.<br><br>
+
+⚡ How I Work<br>
+- Rapidly design and build functional systems and prototypes.<br>
+- Learn new technologies quickly and apply them to real projects.<br>
+- Focus on system thinking, architecture, and practical execution.<br>
+- Deliver working solutions fast rather than just writing code.<br><br>
+
+🧠 What Motivates Me<br>
+I enjoy tackling challenging problems, designing efficient systems, and continuously expanding my technical understanding. I'm highly motivated by learning, experimentation, and building things that actually work in the real world.<br><br>
+
+🌍 Community Mindset<br>
+I believe strong developers grow through collaboration. I enjoy sharing ideas, contributing to discussions, participating in tech communities, and learning from others while helping them grow as well.<br><br>
+
+🚀 Always Exploring<br>
+Whether it's backend systems, automation, infrastructure, or new technologies, I'm constantly experimenting and building projects to push my skills further.
+</p>
 
 ###
+
 
 <h3 align="left">🛠 Language and tools</h3>
 
@@ -48,6 +65,8 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" height="60" alt="tailwindcss logo"/>
   <img width="30"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="60" alt="bootstrap logo"/>
+  <img width="30"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" height="60" alt="vuejs logo"/>
   <img width="30"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="60" alt="react logo"/>
   <img width="30"/>
