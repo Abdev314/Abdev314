@@ -4,12 +4,12 @@
 
 ###
 
-<div align="center">
+<!-- <div align="center">
   <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&style=for-the-badge" height="25" alt="linkedin logo"/>
   <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&style=for-the-badge" height="25" alt="twitter logo"/>
   <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&style=for-the-badge" height="25" alt="discord logo"/>
   <img src="https://img.shields.io/static/v1?message=WeChat&logo=wechat&label=&color=7BB32A&logoColor=white&style=for-the-badge" height="25" alt="wechat logo"/>
-</div>
+</div> -->
 
 <h1 align="center">Hey there 👋</h1>
 
@@ -30,10 +30,8 @@ I'm Abdellah 俊维 — a software developer focused on building real systems, s
 
 🧠 What Motivates Me<br>
 I enjoy tackling challenging problems, designing efficient systems, and continuously expanding my technical understanding. I'm highly motivated by learning, experimentation, and building things that actually work in the real world.<br><br>
-
 🌍 Community Mindset<br>
 I believe strong developers grow through collaboration. I enjoy sharing ideas, contributing to discussions, participating in tech communities, and learning from others while helping them grow as well.<br><br>
-
 🚀 Always Exploring<br>
 Whether it's backend systems, automation, infrastructure, or new technologies, I'm constantly experimenting and building projects to push my skills further.
 </p>
