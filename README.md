@@ -20,20 +20,19 @@
 ###
 
 <p align="left">
-I'm Abdellah 俊维 — a software developer focused on building real systems, solving complex problems, and turning ideas into working solutions quickly.<br><br>
+Abdellah 俊维 — Software developer focused on building real systems and solving complex problems.<br><br>
 
 ⚡ How I Work<br>
-- Rapidly design and build functional systems and prototypes.<br>
-- Learn new technologies quickly and apply them to real projects.<br>
-- Focus on system thinking, architecture, and practical execution.<br>
-- Deliver working solutions fast rather than just writing code.<br><br>
+- Design and build functional systems quickly.<br>
+- Learn new technologies fast and apply them in real projects.<br>
+- Focus on system thinking, architecture, and execution.<br><br>
 
-🧠 What Motivates Me<br>
-I enjoy tackling challenging problems, designing efficient systems, and continuously expanding my technical understanding. I'm highly motivated by learning, experimentation, and building things that actually work in the real world.<br><br>
-🌍 Community Mindset<br>
-I believe strong developers grow through collaboration. I enjoy sharing ideas, contributing to discussions, participating in tech communities, and learning from others while helping them grow as well.<br><br>
-🚀 Always Exploring<br>
-Whether it's backend systems, automation, infrastructure, or new technologies, I'm constantly experimenting and building projects to push my skills further.
+🧠 Motivation
+Driven by challenging problems, continuous learning, and building solutions that work in real-world scenarios.<br><br>
+🌍 Community
+Value collaboration, sharing knowledge, and contributing to tech communities.<br><br>
+🚀 Focus
+Exploring backend systems, automation, infrastructure, and new technologies through hands-on projects.
 </p>
 
 ###
