@@ -1,10 +1,6 @@
 
 
-###
-
 <h3 align="left">👨‍💻 About Me</h3>
-
-###
 
 <p align="left">
 Abdellah 俊维 — Software developer focused on building practical systems and solving complex problems.
@@ -19,14 +15,10 @@ Abdellah 俊维 — Software developer focused on building practical systems and
 - Open collaboration, knowledge sharing, and active ecosystem contribution<br><br>
 </p>
 
-###
-
 
 <h3 align="left">🛠 Language and tools</h3>
 
-###
 <div align="center">
-
   <!-- General Programming Languages -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="60" alt="cplusplus logo"/>
   <img width="15"/>
@@ -36,7 +28,6 @@ Abdellah 俊维 — Software developer focused on building practical systems and
   <img width="15"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="60" alt="typescript logo"/>
   <img width="15"/>
-
 
   <!-- Web UI Languages / Frameworks -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="60" alt="html5 logo"/>
@@ -84,12 +75,10 @@ Abdellah 俊维 — Software developer focused on building practical systems and
   </picture>
   <img width="15"/>
 
-
-  <!-- IDEs / Editors -->
+ <!-- IDEs / Editors -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="60" alt="vscode logo"/>
   <img width="15"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" height="60" alt="intellij logo"/>
   <img width="15"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vim/vim-original.svg" height="60" alt="vim logo"/>
-
 </div>
