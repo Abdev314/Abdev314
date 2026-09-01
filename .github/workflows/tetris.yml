@@ -48,7 +48,7 @@ jobs:
           svg = svg_path.read_text()
 
           # Common Tetris tetromino colors used by the action.
-          # These are replaced with orange so moving pieces stand out
+          # These are replaced with dark orange so moving pieces stand out
           # from the real GitHub contribution green cubes.
           tetromino_colors = [
               "#00f0f0", "#f0f000", "#a000f0", "#00f000",
@@ -56,7 +56,7 @@ jobs:
               "#00ffff", "#ffff00", "#800080", "#008000",
               "#0000ff", "#ffa500",
           ]
-          orange = "#ff8c00"
+          orange = "#e65100"
 
           # Case-insensitive replacement for hex colors in fill/style attributes
           for color in tetromino_colors:
