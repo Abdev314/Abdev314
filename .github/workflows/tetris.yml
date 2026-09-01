@@ -38,7 +38,7 @@ jobs:
           # Generated SVG
           output_path: dist/contribution-graph-tetris.svg
 
-      - name: Recolor tetromino cubes to orange
+      - name: Recolor moving tetromino cells to orange
         run: |
           python3 << 'PY'
           import re
@@ -47,21 +47,42 @@ jobs:
           svg_path = Path("dist/contribution-graph-tetris.svg")
           svg = svg_path.read_text()
 
-          # Common Tetris tetromino colors used by the action.
-          # These are replaced with dark orange so moving pieces stand out
-          # from the real GitHub contribution green cubes.
-          tetromino_colors = [
-              "#00f0f0", "#f0f000", "#a000f0", "#00f000",
-              "#f00000", "#0000f0", "#f0a000", "#ff0000",
-              "#00ffff", "#ffff00", "#800080", "#008000",
-              "#0000ff", "#ffa500",
-          ]
           orange = "#e65100"
 
-          # Case-insensitive replacement for hex colors in fill/style attributes
-          for color in tetromino_colors:
-              pattern = re.compile(re.escape(color), re.IGNORECASE)
-              svg = pattern.sub(orange, svg)
+          def recolor_animate(match):
+              rect_attrs = match.group(1)
+              animate_tag = match.group(2)
+
+              # Static fill of this contribution cell
+              fill_m = re.search(r'fill="(#[0-9a-fA-F]{6})"', rect_attrs)
+              if not fill_m:
+                  return match.group(0)
+              static_fill = fill_m.group(1).lower()
+
+              # Colors used during the animation
+              values_m = re.search(r'values="([^"]+)"', animate_tag)
+              if not values_m:
+                  return match.group(0)
+              values = values_m.group(1)
+
+              # The moving tetromino color is the one that differs from the static fill
+              colors = re.findall(r'#[0-9a-fA-F]{6}', values)
+              tetro_colors = {c.lower() for c in colors if c.lower() != static_fill}
+
+              new_values = values
+              for c in tetro_colors:
+                  new_values = re.sub(re.escape(c), orange, new_values, flags=re.IGNORECASE)
+
+              new_animate = animate_tag.replace(f'values="{values}"', f'values="{new_values}"')
+              return f'<rect{rect_attrs}><animate{new_animate}/></rect>'
+
+          # Match <rect> elements that contain an <animate> child
+          svg = re.sub(
+              r'<rect([^>]+)><animate([^/]+)/></rect>',
+              recolor_animate,
+              svg,
+              flags=re.IGNORECASE,
+          )
 
           svg_path.write_text(svg)
           PY
