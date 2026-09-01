@@ -51,7 +51,13 @@ jobs:
           # 1. Make the animation loop forever instead of playing once
           svg = svg.replace('repeatCount="1"', 'repeatCount="indefinite"')
 
-          # 2. Recolor moving snake cells to medium orange while keeping real contributions green.
+          # 2. Recolor red food cubes to medium orange.
+          #    The action renders food as red squares by default.
+          food_colors = ["#ff0000", "#f00000", "#e53935", "#ff5252", "#ef5350", "#d32f2f"]
+          for food in food_colors:
+              svg = re.sub(re.escape(food), medium_orange, svg, flags=re.IGNORECASE)
+
+          # 3. Recolor moving snake cells to medium orange while keeping real contributions green.
           #    The action animates grid cells by temporarily changing their fill color.
           #    We replace only the animated color that differs from the cell's static contribution color.
           def recolor_snake(match):
