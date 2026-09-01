@@ -37,6 +37,57 @@ jobs:
           # Generated SVG
           output_path: dist/contribution-graph-snake.svg
 
+      - name: Loop animation and recolor snake to medium orange
+        run: |
+          python3 << 'PY'
+          import re
+          from pathlib import Path
+
+          svg_path = Path("dist/contribution-graph-snake.svg")
+          svg = svg_path.read_text()
+
+          medium_orange = "#ff9800"
+
+          # 1. Make the animation loop forever instead of playing once
+          svg = svg.replace('repeatCount="1"', 'repeatCount="indefinite"')
+
+          # 2. Recolor moving snake cells to medium orange while keeping real contributions green.
+          #    The action animates grid cells by temporarily changing their fill color.
+          #    We replace only the animated color that differs from the cell's static contribution color.
+          def recolor_snake(match):
+              rect_attrs = match.group(1)
+              animate_tag = match.group(2)
+
+              fill_m = re.search(r'fill="(#[0-9a-fA-F]{6})"', rect_attrs)
+              if not fill_m:
+                  return match.group(0)
+              static_fill = fill_m.group(1).lower()
+
+              values_m = re.search(r'values="([^"]+)"', animate_tag)
+              if not values_m:
+                  return match.group(0)
+              values = values_m.group(1)
+
+              colors = re.findall(r'#[0-9a-fA-F]{6}', values)
+              snake_colors = {c.lower() for c in colors if c.lower() != static_fill}
+
+              new_values = values
+              for c in snake_colors:
+                  new_values = re.sub(re.escape(c), medium_orange, new_values, flags=re.IGNORECASE)
+
+              new_animate = animate_tag.replace(f'values="{values}"', f'values="{new_values}"')
+              return f'<rect{rect_attrs}><animate{new_animate}/></rect>'
+
+          svg = re.sub(
+              r'<rect([^>]+)><animate([^/]+)/></rect>',
+              recolor_snake,
+              svg,
+              flags=re.IGNORECASE,
+          )
+
+          svg_path.write_text(svg)
+          PY
+
       - name: Publish generated graph
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
