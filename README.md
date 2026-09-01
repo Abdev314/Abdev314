@@ -77,3 +77,10 @@ Abdellah 俊维 — Software developer focused on building practical systems and
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vim/vim-original.svg" height="60" alt="vim logo"/>
 </div>
 
+
+<h3 align="left">🎮 Contribution Graph</h3>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Abdev314/Abdev314/output/contribution-graph-tetris.svg" alt="Tetris contribution graph" />
+</div>
+
