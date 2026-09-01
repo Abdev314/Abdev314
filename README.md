@@ -81,6 +81,6 @@ Abdellah 俊维 — Software developer focused on building practical systems and
 <h3 align="left">🎮 Contribution Graph</h3>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Abdev314/Abdev314/output/contribution-graph-tetris.svg" alt="Tetris contribution graph" />
+  <img src="https://raw.githubusercontent.com/Abdev314/Abdev314/output/contribution-graph-snake.svg" alt="Snake contribution graph" />
 </div>
 
