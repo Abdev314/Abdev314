@@ -24,19 +24,47 @@ jobs:
       - name: Generate Tetris contribution graph
         uses: leereilly/contribution-graph-art@v1
         with:
-          github_user_name: Abdellahsyani
+          github_user_name: Abdev314
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
           # Tetris settings
           animation_mode: tetromino
-          tetromino_count: "5"
+          tetromino_count: "3"
           animation_duration: "8"
 
-          # Automatically adapt to GitHub light/dark mode
-          palette: auto
+          # Use GitHub's light-mode green palette for real contribution cubes
+          palette: github-light
 
           # Generated SVG
           output_path: dist/contribution-graph-tetris.svg
+
+      - name: Recolor tetromino cubes to orange
+        run: |
+          python3 << 'PY'
+          import re
+          from pathlib import Path
+
+          svg_path = Path("dist/contribution-graph-tetris.svg")
+          svg = svg_path.read_text()
+
+          # Common Tetris tetromino colors used by the action.
+          # These are replaced with orange so moving pieces stand out
+          # from the real GitHub contribution green cubes.
+          tetromino_colors = [
+              "#00f0f0", "#f0f000", "#a000f0", "#00f000",
+              "#f00000", "#0000f0", "#f0a000", "#ff0000",
+              "#00ffff", "#ffff00", "#800080", "#008000",
+              "#0000ff", "#ffa500",
+          ]
+          orange = "#ff8c00"
+
+          # Case-insensitive replacement for hex colors in fill/style attributes
+          for color in tetromino_colors:
+              pattern = re.compile(re.escape(color), re.IGNORECASE)
+              svg = pattern.sub(orange, svg)
+
+          svg_path.write_text(svg)
+          PY
 
       - name: Publish generated graph
         uses: crazy-max/ghaction-github-pages@v3.1.0
