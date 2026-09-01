@@ -3,17 +3,13 @@
 <h3 align="left">👨‍💻 About Me</h3>
 
 <p align="left">
-Abdellah 俊维 — Software developer focused on building practical systems and solving complex problems.
-
-⚡ How I Work
-- Rapidly design, learn, and ship architecture-driven systems
-
-🧠 Motivation
-- Solve real-world challenges through continuous learning and execution
-
-🌍 Community
-- Open collaboration, knowledge sharing, and active ecosystem contribution<br><br>
+Abdellah 俊维 — Software developer focused on building practical, scalable systems and solving complex problems.
 </p>
+
+<p align="left">
+⚡ Build • Learn • Ship &nbsp; | &nbsp; 🧠 Problem Solver &nbsp; | &nbsp; 🌍 Open Source & Collaboration
+</p>
+
 
 
 <h3 align="left">🛠 Language and tools</h3>
