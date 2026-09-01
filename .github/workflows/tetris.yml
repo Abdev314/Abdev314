@@ -33,7 +33,7 @@ jobs:
           animation_duration: "8"
 
           # Use GitHub's light-mode green palette for real contribution cubes
-          palette: github-light
+          palette: github-dark
 
           # Generated SVG
           output_path: dist/contribution-graph-tetris.svg
