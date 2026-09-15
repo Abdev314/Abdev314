@@ -42,6 +42,8 @@ Abdellah 俊维 — Software developer focused on building practical, scalable s
   <!-- Linux / Systems -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="60" alt="linux logo"/>
   <img width="4"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-original.svg" height="60" alt="debian logo"/>
+  <img width="4"/>
 
   <!-- Tools / Platforms -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="60" alt="docker logo"/>
