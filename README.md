@@ -26,8 +26,6 @@ Abdellah 俊维 — Software developer focused on building practical, scalable s
   <img width="4"/>
 
   <!-- Web UI Languages / Frameworks -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" height="60" alt="tailwindcss logo"/>
-  <img width="4"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" height="60" alt="vuejs logo"/>
   <img width="4"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="60" alt="react logo"/>
