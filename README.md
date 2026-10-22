@@ -50,6 +50,8 @@ Abdellah 俊维 — Software developer focused on building practical, scalable s
   <img width="5"/>
 
   <img width="5"/>
+    <img src="https://cdn.simpleicons.org/ollama/000000" height="60" alt="ollama logo"/>
+  <img width="5"/>
 
 </div>
 
