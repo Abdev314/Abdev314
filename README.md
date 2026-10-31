@@ -56,7 +56,7 @@ Abdellah 俊维 — Software developer focused on building practical, scalable s
 </div>
 
 </br>
-<div align="center">
+<!-- <div align="center">
   <img src="https://raw.githubusercontent.com/Abdev314/Abdev314/output/contribution-graph-snake.svg" alt="Snake contribution graph" />
-</div>
+</div> -->
 
