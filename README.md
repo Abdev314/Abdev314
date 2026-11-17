@@ -25,12 +25,6 @@ Abdellah 俊维 — Software developer focused on building practical, scalable s
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="60" alt="typescript logo"/>
   <img width="4"/>
 
-  <!-- Web UI Languages / Frameworks -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" height="60" alt="vuejs logo"/>
-  <img width="4"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="60" alt="react logo"/>
-  <img width="4"/>
-
   <!-- Databases / Data -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="60" alt="postgresql logo"/>
   <img width="4"/>
